@@ -75,22 +75,22 @@ svg  { font-family:Helvetica,Arial,sans-serif; font-weight:bold; font-size:6px;
    <ellipse cx="0" cy="-45" rx="70" ry="50" fill="url(#grad_highlight)" stroke="none"/><!-- filter="url(#filter_blur)" -->
   </g>
   <g id="pendulum">
-   <use xlink:href="#orb" fill="currentColor" transform="scale(0.02)"/>
+   <use xlink:href="#orb" fill="currentColor" transform="scale(0.01)"/>
   </g>
  </defs>
  <circle cx="0" cy="0" r="99999" fill="none"/>
  <g class="main">
-  <g transform="translate(0, 2)"><use class="tra71" xlink:href="#pendulum" transform="translate( 1,0)" color="#00aa00"/></g>
-  <g transform="translate(0, 4)"><use class="tra70" xlink:href="#pendulum" transform="translate( 0,0)" color="#10ba10"/></g>
-  <g transform="translate(0, 6)"><use class="tra69" xlink:href="#pendulum" transform="translate(-2,0)" color="#20ca20"/></g>
-  <g transform="translate(0, 8)"><use class="tra68" xlink:href="#pendulum" transform="translate( 3,0)" color="#30da30"/></g>
-  <g transform="translate(0,10)"><use class="tra67" xlink:href="#pendulum" transform="translate(-4,0)" color="#40ea40"/></g>
-  <g transform="translate(0,12)"><use class="tra66" xlink:href="#pendulum" transform="translate( 5,0)" color="#50fa50"/></g>
-  <g transform="translate(0,14)"><use class="tra65" xlink:href="#pendulum" transform="translate(-5,0)" color="#60ff60"/></g>
-  <g transform="translate(0,16)"><use class="tra64" xlink:href="#pendulum" transform="translate( 4,0)" color="#70fa70"/></g>
-  <g transform="translate(0,18)"><use class="tra63" xlink:href="#pendulum" transform="translate(-3,0)" color="#80ea80"/></g>
-  <g transform="translate(0,20)"><use class="tra62" xlink:href="#pendulum" transform="translate( 2,0)" color="#90da90"/></g>
-  <g transform="translate(0,22)"><use class="tra61" xlink:href="#pendulum" transform="translate( 0,0)" color="#a0caa0"/></g>
-  <g transform="translate(0,24)"><use class="tra60" xlink:href="#pendulum" transform="translate(-1,0)" color="#b0bab0"/></g>
+  <g transform="translate(0, 1)"><use class="tra71" xlink:href="#pendulum" transform="translate( 1,0)" color="#00aa00"/></g>
+  <g transform="translate(0, 2)"><use class="tra70" xlink:href="#pendulum" transform="translate( 0,0)" color="#10ba10"/></g>
+  <g transform="translate(0, 3)"><use class="tra69" xlink:href="#pendulum" transform="translate(-2,0)" color="#20ca20"/></g>
+  <g transform="translate(0, 4)"><use class="tra68" xlink:href="#pendulum" transform="translate( 3,0)" color="#30da30"/></g>
+  <g transform="translate(0,5)"><use class="tra67" xlink:href="#pendulum" transform="translate(-4,0)" color="#40ea40"/></g>
+  <g transform="translate(0,6)"><use class="tra66" xlink:href="#pendulum" transform="translate( 5,0)" color="#50fa50"/></g>
+  <g transform="translate(0,7)"><use class="tra65" xlink:href="#pendulum" transform="translate(-5,0)" color="#60ff60"/></g>
+  <g transform="translate(0,8)"><use class="tra64" xlink:href="#pendulum" transform="translate( 4,0)" color="#70fa70"/></g>
+  <g transform="translate(0,9)"><use class="tra63" xlink:href="#pendulum" transform="translate(-3,0)" color="#80ea80"/></g>
+  <g transform="translate(0,10)"><use class="tra62" xlink:href="#pendulum" transform="translate( 2,0)" color="#90da90"/></g>
+  <g transform="translate(0,11)"><use class="tra61" xlink:href="#pendulum" transform="translate( 0,0)" color="#a0caa0"/></g>
+  <g transform="translate(0,12)"><use class="tra60" xlink:href="#pendulum" transform="translate(-1,0)" color="#b0bab0"/></g>
  </g>
 </svg>
