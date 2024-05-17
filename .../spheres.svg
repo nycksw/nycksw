@@ -60,7 +60,6 @@ svg  { font-family:Helvetica,Arial,sans-serif; font-weight:bold; font-size:6px;
 .main:hover * { animation-play-state:paused; }
  </style>
  <defs>
-  <filter id="filter_blur"><feGaussianBlur stdDeviation="6"/></filter>
   <radialGradient id="grad_sphere" cx="50%" cy="50%" r="50%" fx="50%" fy="90%">
    <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
    <stop offset="99%" stop-color="#000000" stop-opacity="0.3"/>
@@ -72,7 +71,7 @@ svg  { font-family:Helvetica,Arial,sans-serif; font-weight:bold; font-size:6px;
   <g id="orb">
    <circle cx="0" cy="0" r="100"/>
    <circle cx="0" cy="0" r="100" fill="url(#grad_sphere)"/>
-   <ellipse cx="0" cy="-45" rx="70" ry="50" fill="url(#grad_highlight)" stroke="none" filter="url(#filter_blur)"/>
+   <ellipse cx="0" cy="-45" rx="70" ry="50" fill="url(#grad_highlight)" stroke="none" />
   </g>
   <g id="pendulum">
    <use xlink:href="#orb" fill="currentColor" transform="scale(0.01)"/>
